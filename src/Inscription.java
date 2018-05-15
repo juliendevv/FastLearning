@@ -27,7 +27,7 @@ public class Inscription extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		this.getServletContext().getRequestDispatcher( "/WEB-INF/inscription.jsp" ).forward( request, response );
+		this.getServletContext().getRequestDispatcher( "././inscription.jsp" ).forward( request, response );
 	}
 
 	/**

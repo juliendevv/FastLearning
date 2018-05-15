@@ -34,7 +34,7 @@ public class Annonce extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		this.getServletContext().getRequestDispatcher( "/WEB-INF/annonce.jsp" ).forward( request, response );
+		this.getServletContext().getRequestDispatcher( "././annonce.jsp" ).forward( request, response );
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		//response.setContentType("text/html");
 	    //response.setCharacterEncoding( "UTF-8" );
