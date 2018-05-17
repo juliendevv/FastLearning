@@ -8,25 +8,18 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Annonce
+ * Servlet implementation class Inscription
  */
-@WebServlet("/annonce")
-public class Annonce extends HttpServlet {
+@WebServlet("/inscription")
+public class Inscription extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+       
     /**
-     * Default constructor. 
+     * @see HttpServlet#HttpServlet()
      */
-    public Annonce() {
-    	super();
+    public Inscription() {
+        super();
         // TODO Auto-generated constructor stub
-    }
-    
-    @Override
-    public void init()throws ServletException{
-    	// TODO Auto-generated constructor stub
-    	super.init();
-    	System.err.println("coucou");
     }
 
 	/**
@@ -34,12 +27,8 @@ public class Annonce extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		this.getServletContext().getRequestDispatcher( "././annonce.jsp" ).forward( request, response );
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		//response.setContentType("text/html");
-	    //response.setCharacterEncoding( "UTF-8" );
+		this.getServletContext().getRequestDispatcher( "././inscription.jsp" ).forward( request, response );
 	}
-
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)

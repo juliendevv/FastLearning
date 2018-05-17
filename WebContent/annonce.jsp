@@ -34,6 +34,7 @@
 	       <label for="nb">Nombre de séances voulues :</label>
 	       <input type="number" name="nb" id="nb" />
 	       </br>
+	       <input type = "submit" value= "Envoyer" name= "Bouton" id="Bouton">
 	   </p>
 	</form>
 </body>
