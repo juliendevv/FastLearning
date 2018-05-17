@@ -1,17 +1,12 @@
-package projetweb;
+package com.sdzee.classe;
 
 public class Utilisateur
 {
     private String Nom;
-
     private String Numero_de_tel;
-
     private String Presentation;
-
     private String Prenom;
-
     private String Date_de_naissance;
-
     private String Mail;
 
     public String getNom ()
